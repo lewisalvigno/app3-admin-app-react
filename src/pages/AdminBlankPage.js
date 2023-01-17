@@ -64,7 +64,7 @@ const Parking = (props)=> {
     
     //   Pusher.logToConsole = true;
 
-    //   var pusher = new Pusher('e6cb6a190c13322ba2c2', {
+    //   var pusher = new Pusher('', {
     //     cluster: 'eu'
     //   });
   
@@ -91,7 +91,7 @@ const Parking = (props)=> {
 
       Pusher.logToConsole = true;
 
-      var pusher = new Pusher('e6cb6a190c13322ba2c2', {
+      var pusher = new Pusher('', {
         cluster: 'eu'
       });
   
