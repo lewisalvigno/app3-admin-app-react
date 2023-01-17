@@ -8,7 +8,10 @@ import ProfilePage from './pages/profile/ProfilePage';
 import ChangePasswordPage from './pages/profile/ChangePasswordPage';
 import UserPreferencesPage from './pages/profile/UserPreferencesPage'
 import AdminBlankPage from './pages/AdminBlankPage';
+import Agents from './pages/Agents';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Revenus from './pages/Revenus';
+import Transactions from './pages/Transactions';
 
 function App() {
   return (
@@ -22,6 +25,10 @@ function App() {
                 <Route exact path='/preferences' element={<UserPreferencesPage/>} />
                 <Route exact path='/typography' element={<TypographyPage/>} />
                 <Route exact path='/blank-page' element={<AdminBlankPage/>} />
+                <Route exact path='/agents-list' element={<Agents/>} />
+                <Route exact path='/revenus' element={<Revenus/>} />
+                <Route exact path='/transactions' element={<Transactions/>} />
+
             </Routes>  
         </Router>
     )

@@ -19,12 +19,12 @@ class Header extends React.Component {
                         <li className="nav-item dropdown notifications">
                             <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-bell"></i></a>
                             <div className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#!">Action</a>
-                                <a className="dropdown-item" href="#!">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#!">Something else here</a>
+                                <a className="dropdown-item" href="#!">notifications</a>
+                                {/* <a className="dropdown-item" href="#!">Another action</a> */}
+                                {/* <div className="dropdown-divider"></div> */}
+                                {/* <a className="dropdown-item" href="#!">Something else here</a> */}
                             </div>
-                        </li>
+                        </li> 
                     </ul>
                 </div>
             </div>

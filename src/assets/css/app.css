@@ -611,3 +611,323 @@ table tbody tr:focus-within, table tbody tr:hover {
 .modal.left .modal-body, .modal.right .modal-body {
   padding: 15px 15px 15px;
 }
+
+/* custom css from now */
+
+.parkit_logo {
+  width: 40%;
+  position: relative;
+  left: 40px;
+}
+
+.dash_bottom {
+
+  width: 82.5vw;
+  background-color: rgb(255, 255, 255);
+  height: 68vh;
+  border-radius: 0.8rem;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+
+}
+
+/* pagkings in dashboard page */
+
+.parking_him {
+
+  width: 20vw;
+  height: 60vh;
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+border-radius: 0.4rem;
+display:grid;
+grid-row: 20% 80%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.parking_him > div:nth-child(1) {
+  /* background-color: #E16B16; */
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  position: relative;
+}
+
+.parking_him > div:nth-child(2) {
+  background-color: #f7f9ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 10rem 0.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  gap: 0.4rem;
+
+}
+
+.parking_him_det {
+
+  width: 100%;
+  height: 5vh;
+  background-color: #E16B16;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.45rem;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+
+
+}
+.parking_him > div:nth-child(2) > div > h6 {
+  color: rgb(15, 12, 12);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.parking_him_live {
+
+  
+  width: 100%;
+  height: 13vh;
+  background-color: #fff8f3;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  gap: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.45rem;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+
+}
+
+.parking_him_live > div{
+
+  height: 7vh;
+  width: 100%;
+  /* background-color: tomato; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+
+}
+
+.parking_him_live > div> div:nth-child(1){
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+
+
+}
+.parking_him_live > div> div:nth-child(1) > div {
+
+  height: 35px;
+  width: 35px;
+  background-color: #0ABE31;
+border-radius: 50%;
+-webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #0ABE33; -webkit-box-shadow: 0 0 3px #0ABE33; }
+  50% { background-color: #20d748; -webkit-box-shadow: 0 0 40px #20d748; }
+  100% { background-color: #0ABE33; -webkit-box-shadow: 0 0 3px #0ABE33; }
+}
+
+
+@-moz-keyframes glowing {
+  0% { background-color: #0ABE33; -moz-box-shadow: 0 0 3px #0ABE33; }
+  50% { background-color: #20d748; -moz-box-shadow: 0 0 40px #20d748; }
+  100% { background-color: #0ABE33; -moz-box-shadow: 0 0 3px #0ABE33; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #0ABE33; box-shadow: 0 0 3px #0ABE33; }
+  50% { background-color: #20d748; box-shadow: 0 0 40px #20d748; }
+  100% { background-color: #0ABE33; box-shadow: 0 0 3px #0ABE33; }
+}
+
+@keyframes glowing {
+  0% { background-color: #0ABE33; box-shadow: 0 0 3px #0ABE33; }
+  50% { background-color: #20d748; box-shadow: 0 0 40px #20d748; }
+  100% { background-color: #0ABE33; box-shadow: 0 0 3px #0ABE33; }
+}
+
+.parking_him_live > div> div:nth-child(2){
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+font-size: 1rem;
+gap: 0.5rem;
+
+
+}
+
+.parking_him_live > div> div:nth-child(2) > div {
+
+  height: 35px;
+  width: 35px;
+  background-color: #E93C06;
+  border-radius: 50%;
+  -webkit-animation: glowing1 1500ms infinite;
+  -moz-animation: glowing1 1500ms infinite;
+  -o-animation: glowing1 1500ms infinite;
+  animation: glowing1 1500ms infinite;
+}
+
+@-webkit-keyframes glowing1 {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing1 {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing1 {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing1 {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+
+.parking_him_live > button {
+
+  outline: none;
+  border:none;
+  background-color: black;
+  color: white;
+  font-weight: 0.9rem;
+  padding: 0 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+
+
+}
+
+.parking_him_img {
+
+  width: 100%;
+  /* object-fit: contain; */
+  position: absolute;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+
+}
+
+.parking_income_divs {
+
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* background-color: #E16B16; */
+  border-radius: 0.4rem;
+  position:absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: 18vh;
+  left: 16vw;
+  padding: 0 1rem;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+
+
+}
+
+.parking_recette {
+
+  height: 50vh;
+  width: 20vw;
+  border-radius: 0.4rem;
+  background-color: #E16B16;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.parking_recette > div {
+  
+   
+    background-color: white;
+  
+}
+.parking_recette > div:nth-child(1){
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.recette_circle{
+
+  width: 170px;
+  height: 170px;
+  border: 1rem solid #0ABE31;
+  border-radius: 50%;
+  /* background-color: #0ABE31; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2.1rem;
+
+}
+
+.parking_recette > div:nth-child(2){
+
+  background-color: #E16B16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.recette_date {
+
+  padding: 0.5rem 2rem;
+  background-color: #E16B16;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  color: white;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+
+}
